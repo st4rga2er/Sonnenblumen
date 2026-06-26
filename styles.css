@@ -1,1 +1,208 @@
+.amm {
+  color: #FFA500
 
+}
+.abc {
+    color: #c15809
+
+}
+.bca {
+    color: white;
+}
+
+.glo {
+    color: white;
+}
+
+
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   line-height: 1,5;
+   font-style: italic;
+ }
+
+ 
+
+ .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-color: black;
+    border-width: 4px;
+ }
+
+ .right-image {
+    max-width: 180px;
+    height: auto;
+ }
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-color: black;
+    border-width: 4px;
+}
+ .new-image {
+    width: 240px;
+    max-width: 240px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+ @keyframes myAnimation {
+  0%   {background: #ffa7a7;}
+  25%  {background: rgb(255, 255, 131);}
+  50%  {background: rgb(188, 188, 255);}
+  100% {background: rgb(220, 218, 218);}
+}
+
+.ASMDKASD {
+  animation-name: myAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  padding: 8px 12px;
+}
+ 
+ 
+ .container {
+  display: grid;
+  grid-template-columns: repeat(3, 64px);
+  grid-template-rows: repeat(5, 64px);
+  width: fit-content;
+  border: 4px solid #1f1f1f;
+  margin: 16px 0;
+ }
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4a4a4a;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.cell-1 {
+    background: white;
+}
+
+.cell-2 {
+    background: white;
+}
+
+.cell-3 {
+    background: white;
+}
+
+.cell-4 {
+    background: white;
+}
+
+.cell-5 {
+    background: white;
+}
+.cell-6 {
+    background: white;
+}
+.cell-7 {
+    background: white;
+}
+
+.cell-8 {
+    background: white;
+}
+
+.cell-9 {
+    background: white;
+}
+
+.cell-10 {
+    background: white;
+}
+
+.cell-11 {
+    background: white;
+}
+
+.cell-12 {
+    background: white;
+}
+
+.cell-13 {
+    background: white;
+}
+
+.cell-14 {
+    background: white;
+}
+
+.cell-15 {
+    background: white;
+}
+
+
+
+/*container für das Feedback*/
+.feedback-section {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background:#f9f9f9;
+    border: 20px solid #ffc400;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.feedback-section h3 {
+    margin-top: 0;
+    color: #6d5103;
+}
+
+/* Eingabefelder */
+.feedback-form {
+    display: flex;
+    flex-direction: column, 
+    gap 12px;
+}
+
+.feedback-input, .feedback-textarea {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.feedback-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.feedback-button {
+    background: #855c03;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0,2s ease;
+}
+
+/* Hover-Effekt für den Button */
+.feedback-button:hover {
+    background: #bd8a08;
+}
