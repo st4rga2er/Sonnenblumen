@@ -33,7 +33,26 @@
         <li><a href="#Kultur">10 Kultur</a>
         </li>
     </ul>
-    </div>
+   <script>
+   ->// diesen Block fügen wir hinzu //
+       window.addEventListener("scroll", () => {
+
+let scrollY = window.scrollY;  //(das sagt dem Code, wo wir gerade vertikal im Scrolling sind)
+ 
+let pageHeight = document.documentElement.scrollHeight; //(das sagt dem Code, wie "hoch" die Seite insgesamt ist)
+let windowHeight = window.innerHeight; //(das sagt dem Code, wie hoch dein Browserfenster ist)
+
+let maxScroll = pageHeight - windowHeight;   
+document.body.style.background = ...;
+let ratio = scrollY / maxScroll;
+       
+</script>
+</body>
+</html>
+ 
+
+
+</div>
 <div class="container">
     <div class="cell cell-1" id="cell1" onclick="apply_color_to_cell_1_background(); 
     create_firework_when_all_cells_are_clicked();"></div>
